@@ -1,0 +1,166 @@
+body {
+	background-color: #f9f9f9;
+	width: 1366px;
+}
+.header {
+	    float:left; /*выравниваем список по левому краю*/
+	    width:auto;/*задаем ширину авто исходя из типа и содержимого списка*/
+	    list-style:none; /*удаляем маркеры списка*/
+	    font-size:15px; /*задаем размер шрифта*/
+	    font-family: Myriad Pro Regular; /*устанавливаем шрифт*/
+	}
+	
+.header li {
+	       float:left; /*выравниваем элементы списка по левому краю*/
+	       }
+	
+.header a {
+	      display:block; /*представляем ссылки меню как блочные элементы*/
+	      width:144px; /*задаем размер блока*/
+	      height:40px; /*и высоту блока*/
+	      text-align:center; /*надпись по центру*/
+	      line-height: 40px; /*межстрочный интервал*/
+	      text-decoration:none; /*убираем подчеркивание у ссылок*/
+	      color:#fff; /*цвет текста ссылок - белый*/
+	}
+	
+.header a:hover {
+	            background-color: #383838; /*ссылка меняет цвет при наведении указателя*/
+	            border-right:#838383 solid 1px; /*бордюр правой стороны блока (белая линия в 1px)*/
+	            border-left:#838383 solid 1px; /*бордюр правой стороны блока (белая линия в 1px)*/
+
+	            }
+.container {
+  margin-left: 150px;
+  margin-top: 0px;
+  width: 1069px;
+  height: 960px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+.logo1 {
+	padding-top: 50px;
+}
+.logo {
+  background-image: url("../img/logo.png");
+  margin-left: 50px;
+  width: 145px;
+  height: 40px;
+}
+.panel {
+  background-image: linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 40px;
+}
+
+.left_menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width:240px;
+    padding-top: 80px;
+    margin-top: 40px;
+    font-size:15px; /*задаем размер шрифта*/
+    font-family: OpenSans Regular; /*устанавливаем шрифт*/
+
+}
+
+.left_menu li {
+	text-align: left;
+}
+
+.left_menu a {
+    display: inline-block;
+    width:240px; /*задаем размер блока*/
+	height:40px;
+    text-decoration: none;
+    border: 1px solid #c8c8c8;
+    border-bottom: none;
+	line-height: 40px; /*межстрочный интервал*/
+	text-decoration:none; /*убираем подчеркивание у ссылок*/
+	color:#656363; /*цвет текста ссылок - белый*/
+	
+}
+.left_menu a.last {
+	border-bottom: 1px solid #c8c8c8;
+}
+.left_menu a:hover {
+    background: #f9f9f9;
+}
+.left-text-menu {
+	padding-left: 20px;
+}
+.left-text-menu:hover {
+	padding-left: 40px;
+}
+
+.frame {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  background-color: rgb(255, 255, 255);
+  margin-left: 290px;
+  margin-top: -247px;
+  height: 400px;
+}
+
+.image {
+  background-image: url("../img/image.png");
+  width: 500px;
+  height: 307px;
+  margin-left: 89px;
+  margin-top: 47px;
+}
+.content
+{
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(44, 44, 44);
+  line-height: 20px;
+  padding-top: 80px;
+  padding-left: 20px;
+}
+
+.panel-bottom {
+	background-color: #e1e1e1;
+  margin-top: 680px;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 40px;
+}
+.panel-bottom-menu {
+	    float:left; /*выравниваем список по левому краю*/
+	    width:auto;/*задаем ширину авто исходя из типа и содержимого списка*/
+	    list-style:none; /*удаляем маркеры списка*/
+	    font-size:15px; /*задаем размер шрифта*/
+	    font-family: Myriad Pro Regular; /*устанавливаем шрифт*/
+	}
+	
+.panel-bottom-menu li {
+	       float:left; /*выравниваем элементы списка по левому краю*/
+	       }
+	
+.panel-bottom-menu a {
+	      display:block; /*представляем ссылки меню как блочные элементы*/
+	      width:150px; /*задаем размер блока*/
+	      height:40px; /*и высоту блока*/
+	      text-align:center; /*надпись по центру*/
+	      line-height: 40px; /*межстрочный интервал*/
+	      text-decoration:none; /*убираем подчеркивание у ссылок*/
+	      color:black; /*цвет текста ссылок - белый*/
+	}
+	
+.panel-bottom-menu a:hover {
+		        text-decoration: underline;   
+		            }
+.panel-bottom-menu p.last1 {
+	width:250px;
+	font-size:15px; /*задаем размер шрифта*/
+	font-family: Myriad Pro Regular; /*устанавливаем шрифт*/
+	padding-left: 110px;
+	text-align:center; /*надпись по центру*/
+	line-height: 40px; /*межстрочный интервал*/
+
+
+}
