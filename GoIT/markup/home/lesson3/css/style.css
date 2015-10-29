@@ -1,17 +1,19 @@
-body {
+﻿body {
 	background-color: #f9f9f9;
-	width: 1366px;
+	font-family: 'Open Sans';
+
 }
 .header {
 	    float:left; /*выравниваем список по левому краю*/
 	    width:auto;/*задаем ширину авто исходя из типа и содержимого списка*/
 	    list-style:none; /*удаляем маркеры списка*/
 	    font-size:15px; /*задаем размер шрифта*/
-	    font-family: Myriad Pro Regular; /*устанавливаем шрифт*/
+	    font-family: 'Open Sans'; /*устанавливаем шрифт*/
 	}
 	
 .header li {
 	       float:left; /*выравниваем элементы списка по левому краю*/
+
 	       }
 	
 .header a {
@@ -26,13 +28,9 @@ body {
 	
 .header a:hover {
 	            background-color: #383838; /*ссылка меняет цвет при наведении указателя*/
-	            border-right:#838383 solid 1px; /*бордюр правой стороны блока (белая линия в 1px)*/
-	            border-left:#838383 solid 1px; /*бордюр правой стороны блока (белая линия в 1px)*/
-
 	            }
 .container {
-  margin-left: 150px;
-  margin-top: 0px;
+  margin: 0 auto;
   width: 1069px;
   height: 960px;
   background-color: #ffffff;
@@ -62,7 +60,6 @@ body {
     padding-top: 80px;
     margin-top: 40px;
     font-size:15px; /*задаем размер шрифта*/
-    font-family: OpenSans Regular; /*устанавливаем шрифт*/
 
 }
 
@@ -115,7 +112,6 @@ body {
 .content
 {
   font-size: 14px;
-  font-family: "OpenSans";
   color: rgb(44, 44, 44);
   line-height: 20px;
   padding-top: 80px;
@@ -129,12 +125,12 @@ body {
   margin-left: 50px;
   height: 40px;
 }
+
 .panel-bottom-menu {
 	    float:left; /*выравниваем список по левому краю*/
 	    width:auto;/*задаем ширину авто исходя из типа и содержимого списка*/
 	    list-style:none; /*удаляем маркеры списка*/
 	    font-size:15px; /*задаем размер шрифта*/
-	    font-family: Myriad Pro Regular; /*устанавливаем шрифт*/
 	}
 	
 .panel-bottom-menu li {
@@ -157,7 +153,6 @@ body {
 .panel-bottom-menu p.last1 {
 	width:250px;
 	font-size:15px; /*задаем размер шрифта*/
-	font-family: Myriad Pro Regular; /*устанавливаем шрифт*/
 	padding-left: 110px;
 	text-align:center; /*надпись по центру*/
 	line-height: 40px; /*межстрочный интервал*/
