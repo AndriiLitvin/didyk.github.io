@@ -1,0 +1,256 @@
+body{
+	background: url("../img/background.png");
+	background-repeat: repeat-x;
+	background-color: #0d78a2;
+	font-family: Tahoma;
+}
+
+.footer{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.clearfix{
+  *zoom: 1;
+}
+
+.clearfix:before{
+  content: '';
+  display: table;
+}
+
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.conteiner{
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+
+}
+
+.header{
+	
+}
+
+.logo{
+width: 283px;
+height: 164px;
+float: left;
+margin-top: 11px;
+margin-left: 30px;
+background-image: url("../img/logo.png");
+}
+
+.logo a {
+	display: block;
+	height: 100%;
+	content: '';
+}
+
+.information{
+	float: right;
+	margin-top: 8px;
+	margin-right: 35px;
+}
+
+.information p{
+	font-family: Tahoma;
+	font-size: 12px;
+	line-height: 20px;
+	color: #128aa7;
+
+}
+
+.information-contacts{
+	font-weight: bold;
+}
+
+.nav-countries{
+	background-color: grey;
+	clear: right;
+	margin-right: 35px;
+
+}
+
+
+.navigation {
+	list-style: none; /* прячем маркеры */
+	/*margin: 30px;*/
+}
+.navigation li {
+	margin-top: 30px;
+	float: right; /* выстраиваем элементы списка в один ряд */
+
+}
+.navigation li a {
+	display: block;
+	text-align: center;
+	padding-top: 40px; /* внутренний остту чтобы текст был вне фона */
+	color: #ff0000;
+	background-position: center top; /* выравниваем фон вверх и по центру */
+	background-repeat: no-repeat;
+	width: 60px; /* размеры указываем чтобы картинки полностью отобразились */
+	font-size: 10px;
+	color: #128aa7;
+}
+
+.navigation .India a {
+	background-image: url("../img/i_flag.png");
+}
+.navigation .Napal a {
+	background-image: url("../img/n_flag.png");
+}
+.navigation .Tibet a {
+	background-image: url("../img/t_flag.png");
+}
+.navigation .Butan a {
+	background-image: url("../img/b_flag.png");
+}
+.navigation .Sri-Lanka a {
+	background-image: url("../img/s_flag.png");
+}
+.navigation .Maldivi a {
+	background-image: url("../img/m_flag.png");
+}
+.navigation li a:hover {
+	color: #0000CC;
+}
+
+
+.image{
+	/*border-top: 1px solid #128aa7;*/
+	clear: both;
+	height: 237px;
+
+	/*background-image: url("../img/photo.png");*/
+}
+
+.central-panel{
+  background-image: linear-gradient( 90deg, rgb(30,30,30) 0%, rgb(37,37,37) 100%);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,1);
+  border-bottom: 0.5px solid black;
+
+}
+/*Main menu begin*/
+.central-menu li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  	width: 130px;
+	height: 27px;
+	font-size:14px;
+	text-align:center;
+	line-height: 27px;
+	text-decoration:none;
+	color:#fff;
+}
+
+.central-menu ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  margin-left: -3px;
+  padding: 0;
+  overflow: hidden;
+  width: 130px;
+  border-top: 1px solid black;
+}
+
+.central-menu ul li {
+  float: none;
+  
+}
+
+.central-menu li:hover > ul {
+  display: block;
+  background: #222;
+  box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.central-menu li:hover > ul li:hover {
+  border-radius: 0 0 5px 5px;
+}
+
+.central-menu li li a:hover {
+  background: #000;
+}
+
+.central-menu ul li:last-child a,
+.central-menu ul li:last-child a:hover {
+  border-radius: 0 0 5px 5px;
+}
+
+
+.central-menu  {
+  float: left;
+  margin-left: 30px;
+}
+
+.central-menu  li{
+  float: left;
+}
+.central-menu a {
+	width: 130px;
+	height: 27px;
+	font-size:14px;
+	text-align:center;
+	line-height: 27px;
+	text-decoration:none;
+	color:#fff;
+}
+/*Main menu ends*/
+/*article begin*/
+.article{
+}
+.fon {
+width: 100%;
+overflow: hidden; /* чтобы лишее обрезалось */
+font-size: 14px;
+}
+.fon p {
+text-align: center;
+line-height: 20px;
+}
+
+.first {
+font-weight: bold;
+font-size: 18px;
+margin-top: 8px;
+margin-bottom: 8px;
+
+}
+.leftColumn {
+width: 208px;
+float: left;
+background: #edeef0;
+border-right: 1px solid #c7cacf;
+border-left: 1px solid #c7cacf;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+}
+.centerColumn {
+width: 580px; 
+float: left;
+background: white;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+}
+.rightColumn {
+width: 208px;
+float: right;
+background: #edeef0;
+border-right: 1px solid #c7cacf;
+border-left: 1px solid #c7cacf;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+}
+
+
+/*article ends*/
