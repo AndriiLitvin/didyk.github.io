@@ -10,6 +10,7 @@ body{
 	font-size: 12px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	color: #ffffff;
 }
 
 .clearfix{
@@ -28,7 +29,7 @@ body{
 }
 
 .conteiner{
-	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
+	box-shadow: 0 3px 3px 2px rgba(0,0,0,0.5);
 	width: 1000px;
 	margin: 0 auto;
 	background-color: white;
@@ -136,20 +137,30 @@ background-image: url("../img/logo.png");
   background-image: linear-gradient( 90deg, rgb(30,30,30) 0%, rgb(37,37,37) 100%);
   box-shadow: 0 2px 3px 0 rgba(0,0,0,1);
   border-bottom: 0.5px solid black;
+  position: relative;
+  z-index: 1;
+}
+
+.triangle{
+	font-size: 10px;
+	height: 27px;
+	text-align:center;
+	line-height: 27px;
 
 }
+
 /*Main menu begin*/
 .central-menu li a {
   display: block;
   text-decoration: none;
   color: #fff;
-  	width: 130px;
-	height: 27px;
-	font-size:14px;
-	text-align:center;
-	line-height: 27px;
-	text-decoration:none;
-	color:#fff;
+  width: 130px;
+  height: 27px;
+  font-size:14px;
+  text-align:center;
+  line-height: 27px;
+  text-decoration:none;
+  color:#fff;
 }
 
 .central-menu ul {
@@ -165,13 +176,12 @@ background-image: url("../img/logo.png");
 
 .central-menu ul li {
   float: none;
-  
 }
 
 .central-menu li:hover > ul {
   display: block;
   background: #222;
-  box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow:  0 0 3px 3px rgba(0, 0, 0, 0.8);
 }
 
 .central-menu li:hover > ul li:hover {
@@ -180,11 +190,13 @@ background-image: url("../img/logo.png");
 
 .central-menu li li a:hover {
   background: #000;
+
 }
 
 .central-menu ul li:last-child a,
 .central-menu ul li:last-child a:hover {
   border-radius: 0 0 5px 5px;
+
 }
 
 
