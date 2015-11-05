@@ -29,10 +29,11 @@ body{
 }
 
 .conteiner{
-	box-shadow: 0 3px 3px 2px rgba(0,0,0,0.5);
+	box-shadow: 0 0 3px 2px rgba(0,0,0,0.5);
 	width: 1000px;
 	margin: 0 auto;
 	background-color: white;
+	border-bottom: 3px solid #000;
 
 }
 
@@ -135,8 +136,8 @@ background-image: url("../img/logo.png");
 
 .central-panel{
   background-image: linear-gradient( 90deg, rgb(30,30,30) 0%, rgb(37,37,37) 100%);
-  box-shadow: 0 2px 3px 0 rgba(0,0,0,1);
-  border-bottom: 0.5px solid black;
+  box-shadow: 0 0 3px 1px rgba(0,0,0,0.8);
+  border-bottom: 1px solid black;
   position: relative;
   z-index: 1;
 }
@@ -168,20 +169,22 @@ background-image: url("../img/logo.png");
   position: absolute;
   list-style: none;
   margin-left: -3px;
+  margin-top: 1px;
   padding: 0;
   overflow: hidden;
   width: 130px;
-  border-top: 1px solid black;
+  /*border-top: 1px solid black;*/
 }
 
 .central-menu ul li {
   float: none;
+
 }
 
 .central-menu li:hover > ul {
   display: block;
   background: #222;
-  box-shadow:  0 0 3px 3px rgba(0, 0, 0, 0.8);
+  box-shadow:  0 1px 4px 2px rgba(0, 0, 0, 0.8);
 }
 
 .central-menu li:hover > ul li:hover {
@@ -229,6 +232,7 @@ font-size: 14px;
 .fon p {
 text-align: center;
 line-height: 20px;
+color: #424c43;
 }
 
 .first {
