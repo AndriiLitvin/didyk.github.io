@@ -137,7 +137,7 @@ background-image: url("../img/logo.png");
 .central-panel{
   background-image: linear-gradient( 90deg, rgb(30,30,30) 0%, rgb(37,37,37) 100%);
   box-shadow: 0 0 3px 1px rgba(0,0,0,0.8);
-  border-bottom: 1px solid black;
+  
   position: relative;
   z-index: 1;
 }
@@ -148,6 +148,14 @@ background-image: url("../img/logo.png");
 	text-align:center;
 	line-height: 27px;
 
+}
+
+.central-menu {
+	border-bottom: 1px solid black;
+}
+
+.submenu {
+	border-top: 1px solid black;
 }
 
 /*Main menu begin*/
@@ -169,8 +177,8 @@ background-image: url("../img/logo.png");
   position: absolute;
   list-style: none;
   margin-left: -3px;
-  margin-top: 1px;
   padding: 0;
+  /*margin-top: 1px;*/
   overflow: hidden;
   width: 130px;
   /*border-top: 1px solid black;*/
@@ -181,10 +189,10 @@ background-image: url("../img/logo.png");
 
 }
 
-.central-menu li:hover > ul {
+.central-menu li:hover ul {
   display: block;
   background: #222;
-  box-shadow:  0 1px 4px 2px rgba(0, 0, 0, 0.8);
+  box-shadow:  0 3px 4px 2px rgba(0, 0, 0, 0.8);
 }
 
 .central-menu li:hover > ul li:hover {
