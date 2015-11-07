@@ -1,0 +1,207 @@
+.clearfix{
+  *zoom: 1;
+}
+
+.clearfix:before{
+  content: '';
+  display: table;
+}
+
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body {
+  background-color: #000;
+  font-family: "Helvetica Neue Regular", Tahoma;
+}
+
+/*Header*/
+.header {
+  background-image: linear-gradient(to top, rgb(00,66,99), rgb(00,33,99));
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.login {
+  background: #4aa6d8;
+  float: right; 
+  height:36px;
+  text-align:center; 
+  line-height: 36px; 
+  color:#FFF; 
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*border: 1px solid #449ad3;*/
+}
+
+.login a {
+  color:#fff;
+}
+
+.minhas-ofertas{
+  float: right; 
+  height:36px;
+  text-align:center; 
+  line-height: 36px;  
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+.minhas-ofertas-link{
+  padding-right:10px;
+  vertical-align:middle;
+  text-decoration: none;
+  color: #fff;
+}
+.minhas-ofertas-link img{
+  vertical-align:middle;
+  padding-right:10px;
+  border:0;
+}
+
+.border{
+  float: right;  
+}
+
+.border img{
+  padding-top: 2px;
+
+}
+
+.top-menu {
+  float:right; /*выравниваем список по левому краю*/
+  width:auto;/*задаем ширину авто исходя из типа и содержимого списка*/
+  list-style:none; /*удаляем маркеры списка*/
+  font-size:14px; /*задаем размер шрифта*/
+  margin-right: 20px;
+
+	}
+
+.top-menu li {
+  float:left; /*выравниваем элементы списка по левому краю*/ 
+  }
+	
+.top-menu a {
+  display:block; /*представляем ссылки меню как блочные элементы*/
+  /*width:144px;*/
+  height:36px; /*и высоту блока*/
+  text-align:center; /*надпись по центру*/
+  line-height: 36px; /*межстрочный интервал*/
+  text-decoration:none; /*убираем подчеркивание у ссылок*/
+  color:#5aaee6; /*цвет текста ссылок - белый*/
+  padding-left: 15px;
+  padding-right: 15px;
+	}
+	
+.top-menu a:hover {
+  background-color: #4eabda; /*ссылка меняет цвет при наведении указателя*/
+  color:#ffffff;
+  }
+/*Header ends*/
+
+/*article*/
+.background{
+  background: url("../img/background.png");
+  background-position: center;
+  width: 100%;
+}
+
+.form {
+  width: 560px;
+  height: 610px;
+  background-color: rgba(0,0,0,0.5);
+  margin: 210px auto;
+}
+
+.head {
+  width: 100%;
+  height: 62px;
+  border-bottom: 2px solid #fff;
+  font-size: 24px;
+  color: #fff;
+  text-align:center;
+  line-height: 62px;
+}
+
+.login-facebook {
+  width: 100%;
+  height: 103px;
+}
+
+.login-facebook img {
+  margin-left: 142px;
+  margin-top: 36px;
+}
+
+.ou {
+  width: 100%;
+  margin-left: 142px;
+}
+
+.mainform{
+  
+}
+
+.text-area{
+  width: 276px;
+  height: 35px;
+  font-size: 14px;
+  margin-left: 142px;
+  margin-top: 16px;
+  background-color: #0f0f0f;
+  border: 0;
+  border-bottom: 1px solid #484948;
+  padding-left: 20px;
+  color: #cccccc;
+  font-family: "Helvetica Neue Regular", Tahoma;
+}
+.check{
+  font-size: 14px;
+  margin-left: 142px;
+  margin-top: 16px;
+  margin-right: 10px;
+
+}
+
+.mainform label{
+  color: #cccccc;
+  font-size: 14px;	
+  vertical-align:middle;
+
+}
+
+.text-area:focus{
+  background-color: #1b5288;
+  box-shadow: 0 0 5px 5px rgba(27,82,136,0.5)
+}
+
+.mainform button {
+  height: 37px;
+  width: 150px;
+  font-size: 14px;
+  margin-left: 205px;
+  margin-top: 23px;
+  background:  linear-gradient(to top, rgb(54,134,202), rgb(103,198,230));
+  border: 0;
+  font-family: "Helvetica Neue Regular", Tahoma;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.private-policy{
+  margin-top: 15px;
+}
+
+.private-policy p{
+  text-align: center;
+  color: #fff;
+  padding-top: 5px;
+  font-size: 11px;
+}
+/*article ends*/
