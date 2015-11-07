@@ -1,4 +1,4 @@
-.clearfix{
+﻿.clearfix{
   *zoom: 1;
 }
 
@@ -106,7 +106,7 @@ body {
 
 /*article*/
 .background{
-  background: url("../img/background.jpg");
+  background: url("../img/Background.png");
   background-position: center;
   width: 100%;
 }
