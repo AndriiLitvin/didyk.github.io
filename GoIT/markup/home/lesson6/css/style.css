@@ -27,6 +27,7 @@ body{
 }
 
 .phone{
+  color: #5e696d;
   margin-left: 52px;
   margin-top: 22px;
   text-align: center;
@@ -376,6 +377,7 @@ nav {
 	float: left;
 }
 
+
 .second-column{
 	float: left;
 }
@@ -429,6 +431,8 @@ main p{
 	/*margin-left: 37px;*/
 	margin-top: 1px;
 	font-size: 13px;
+	color: #1f2528;
+	font-weight: normal;
 }
 
 .one{
