@@ -21,7 +21,7 @@ body {
 /*Header*/
 .header {
   background-image: linear-gradient(to top, rgb(00,66,99), rgb(00,33,99));
-  position: relative;
+  /*position: relative;*/
   z-index: 1;
   width: 100%;
 }
@@ -79,8 +79,7 @@ body {
   list-style:none; /*удаляем маркеры списка*/
   font-size:14px; /*задаем размер шрифта*/
   margin-right: 20px;
-
-	}
+  }
 
 .top-menu li {
   float:left; /*выравниваем элементы списка по левому краю*/ 
@@ -102,6 +101,13 @@ body {
   background-color: #4eabda; /*ссылка меняет цвет при наведении указателя*/
   color:#ffffff;
   }
+
+.ne-uletay{
+  width: 1215px;
+  position: relative;
+  left: 50%;
+  margin-left: -550px;
+}
 /*Header ends*/
 
 /*article*/
