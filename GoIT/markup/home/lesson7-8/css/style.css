@@ -70,6 +70,7 @@
 	float: left;
 	list-style: none;
 	margin-left: 8%;
+	-o-margin-left: 7%;
 }
 
 .menu__link:first-child{
@@ -217,7 +218,10 @@
 	background-image: -webkit-linear-gradient(bottom, #322539, #745083);
 	background-image: -moz-linear-gradient(bottom, #322539, #745083);
 	background-image: -o-linear-gradient(bottom, #322539, #745083);
-	background-image: -ms-linear-gradient(bottom, #322539, #745083);
+	background-image: -ms-linear-gradient (bottom, #322539, #745083);
+	-ms-background-image: linear-gradient (bottom, #322539, #745083);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#322539', 
+            endColorstr='#745083',GradientType=0);
 	background-image: linear-gradient(to top, #322539, #745083);
 	width: 100%;
 	border-bottom: 2px solid #0d151b;
