@@ -1,9 +1,9 @@
 @media screen and (min-width: 960px){
-/*.main{
+.main{
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1980px;
-}*/
+}
 .test{
 	top: 80%;
 }
