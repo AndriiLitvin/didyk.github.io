@@ -4,8 +4,8 @@
 	width: 100%;
 	max-width: 1980px;
 }
-.test{
-	top: 80%;
+{
+	top: 47%;
 }
 /*.purple-background960px{
 	margin: 0 auto;
@@ -83,6 +83,7 @@
 .test{
 	/*left: -200px;*/
 	width: 100%;
+	top:47%;
 
 }
 .main-text{
@@ -397,7 +398,7 @@
 	height: 245px;
 	background: rgba(0,0,0,0.3);
 	/*left: -200px;*/
-	top: 66%;
+	top: 38%;
 }
 .about1{
 	width: 82%;
