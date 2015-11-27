@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 960px){
+@media screen and (min-width: 960px){
 .main{
 	margin: 0 auto;
 	width: 100%;
@@ -43,7 +43,7 @@
 }
 }
 
-@media screen and (max-device-width: 959px) {
+@media screen and (max-width: 959px) {
 .slider1{
 	display: none;
 }
@@ -262,7 +262,7 @@
 }
 }
 
-@media screen and (max-device-width: 767px) {
+@media screen and (max-width: 767px) {
 .slider1{
 	display: none;
 }
@@ -637,7 +637,7 @@
 }
 }
 
-@media screen and (max-device-width: 479px) {
+@media screen and (max-width: 479px) {
 
 .slider1{
 	display: none;
