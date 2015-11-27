@@ -110,13 +110,20 @@
 	top: 0;
 	left: 0;*/
 }
+
+/*.slider:before{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	background: rgba(0,0,0,0.3);
+}*/
+
+
 .test{
 	position: absolute;
 	width: 100%;
-	/*min-width: 1354px;*/
 	height: 400px;
 	background: rgba(0,0,0,0.3);
-	top: 70%;
 }
 
 .main-text{
@@ -302,6 +309,7 @@
 	margin: 0 auto;
 	width: 100%;
 	max-width: 960px;
+	overflow: hidden;
 }
 .about1{
 	position: relative;
@@ -500,7 +508,7 @@
 	clear: both;
 }
 .logos__img{
-	width: 100%;
+	width: 90%;
 	margin-top: 3%;
 	margin-left: 10%;
 	margin-bottom: 2%;
