@@ -69,8 +69,7 @@
 .menu__link{
 	display: inline-block;
 	text-decoration: none;
-	font-family: LeagueGothic;
-	/*margin-left: 7%;*/
+	font-family: "LeagueGothic";
 	font-size: 24px;
 	letter-spacing: -0.5px;
 	text-transform: uppercase;
@@ -89,7 +88,7 @@
 	background: url(../img/arrows.png) 0 0 no-repeat;
 	height: 40px;
 	width: 30px;
-    right: 117%;
+    right: 114%;
     top: 28%;
     z-index: 1;
 }
@@ -194,7 +193,7 @@
 .check input[type=radio]:checked + label:before {
     content: "\2022";
     color: #FFF;
-    font-size: 33px;
+    font-size: 34px;
     text-align: center;
     line-height: 16px;
 }
@@ -227,6 +226,7 @@
 		text-indent:-9999px;
 		}
 .slider__label1 {
+	    /*margin-top: 1%;*/
 		margin-left: 76%;
 		overflow:hidden;
 		/*margin-left: 10%;*/
@@ -252,13 +252,27 @@
 
 /* Current */
 .slider__check:checked + .slider__label {
-	background-color: #FFF;
+	background: rgba(247,249,252,0.3);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(247,249,252,1) 0%, rgba(247,249,252,1) 30%, rgba(247,249,252,1) 37%, rgba(8,8,8,0.3) 41%, rgba(8,8,8,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(247,249,252,1)), color-stop(30%, rgba(247,249,252,1)), color-stop(37%, rgba(247,249,252,1)), color-stop(41%, rgba(8,8,8,1)), color-stop(100%, rgba(8,8,8,0.3)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(247,249,252,1) 0%, rgba(247,249,252,1) 30%, rgba(247,249,252,1) 37%, rgba(8,8,8,0.3) 41%, rgba(8,8,8,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(247,249,252,1) 0%, rgba(247,249,252,1) 30%, rgba(247,249,252,1) 37%, rgba(8,8,8,0.3) 41%, rgba(8,8,8,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(247,249,252,1) 0%, rgba(247,249,252,1) 30%, rgba(247,249,252,1) 37%, rgba(8,8,8,0.3) 41%, rgba(8,8,8,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(247,249,252,1) 0%, rgba(247,249,252,1) 30%, rgba(247,249,252,1) 37%, rgba(8,8,8,0.3) 41%, rgba(8,8,8,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f9fc', endColorstr='#080808', GradientType=1 );	width:16px;
 	width:16px;
 	height:16px;
 	}
 
 .slider__check:checked + .slider__label1 {
-	background-color: #FFF;
+	background: rgba(247,249,252,0.3);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(247,249,252,1) 0%, rgba(247,249,252,1) 30%, rgba(247,249,252,1) 37%, rgba(8,8,8,0.3) 41%, rgba(8,8,8,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(247,249,252,1)), color-stop(30%, rgba(247,249,252,1)), color-stop(37%, rgba(247,249,252,1)), color-stop(41%, rgba(8,8,8,1)), color-stop(100%, rgba(8,8,8,0.3)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(247,249,252,1) 0%, rgba(247,249,252,1) 30%, rgba(247,249,252,1) 37%, rgba(8,8,8,0.3) 41%, rgba(8,8,8,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(247,249,252,1) 0%, rgba(247,249,252,1) 30%, rgba(247,249,252,1) 37%, rgba(8,8,8,0.3) 41%, rgba(8,8,8,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(247,249,252,1) 0%, rgba(247,249,252,1) 30%, rgba(247,249,252,1) 37%, rgba(8,8,8,0.3) 41%, rgba(8,8,8,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(247,249,252,1) 0%, rgba(247,249,252,1) 30%, rgba(247,249,252,1) 37%, rgba(8,8,8,0.3) 41%, rgba(8,8,8,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f9fc', endColorstr='#080808', GradientType=1 );	width:16px;
 	width:16px;
 	height:16px;
 	}
@@ -389,13 +403,16 @@
 }
 .white-form{
 	float: left;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	/*-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);*/
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	/*box-shadow: 0 1px 2px rgba(0,0,0,.05);*/
 	width: 45%;
     margin-top: 10%;
     margin-left: 2%;
-	background-color: #fff;
+	/*background-color: #fff;*/
+	background-image: url(../img/white-form.png);
+	background-repeat: no-repeat;
+
 }
 .about--news{
 	padding-bottom: 0%;
@@ -428,6 +445,7 @@
 	color: #454545;
 	text-shadow: none;
 	margin-left: 1%;
+	padding-bottom: 22%;
 }
 .check--comment{
 	float: left;
