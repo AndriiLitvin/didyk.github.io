@@ -1,0 +1,50 @@
+﻿body{
+	background-color: grey;
+}
+
+.main{
+	margin: 0 auto;
+	width: 900px;
+	/*height: 100px;*/
+	background-color: white;
+	border: 1px solid #000;
+}
+
+.title{
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+.main__questions{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 150px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.main__answers{
+	font-size: 16px;
+	margin-right: 400px;
+	/*margin-left: 200px;
+	margin-right: 200px;*/
+	/*float: left;*/
+}
+
+.main__submit{
+	height: 50px;
+	width: 400px;
+	margin-left: 250px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #cfe2f3;
+	border: 2px solid #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.main__checkbox{
+	margin-left: 200px;
+	/*float: left;*/
+}
