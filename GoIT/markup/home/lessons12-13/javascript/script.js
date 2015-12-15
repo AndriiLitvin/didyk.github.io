@@ -58,7 +58,7 @@ var domElements = {
 
 var bodyHTML = document.querySelector('body');
 domElements.domElementsCreate({
-  tagName: 'div',
+  tagName: 'form',
   className: 'main',
   parentElement: bodyHTML
 });
