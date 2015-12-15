@@ -34,3 +34,20 @@ body{
 	font-size: 30px;
 	font-weight: bold;
 }
+
+.button__timer{
+	width: 400px;
+	height: 170px;
+	line-height: 170px;
+	background: white;
+	font-size: 70px;
+
+}
+
+.button:hover{
+	background: #32CD32;
+}
+
+.button__timer:hover{
+	background: white;
+}
