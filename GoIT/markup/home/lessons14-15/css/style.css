@@ -1,0 +1,36 @@
+﻿.clearfix{
+  *zoom: 1;
+}
+.clearfix:before{
+  content: '';
+  display: table;
+}
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body{
+	background-color: grey;
+}
+
+.main{
+	margin: 100px auto;
+	width: 800px;
+}
+
+.button{
+	float: left;
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	background: green;
+	margin-right: 20px;
+	margin-left: 20px; 
+	border: 5px solid #000;
+	border-radius: 15px;
+	font-size: 30px;
+	font-weight: bold;
+}
