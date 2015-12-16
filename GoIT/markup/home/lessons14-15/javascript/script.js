@@ -16,12 +16,21 @@ function startTimer()
    timer = setInterval(
    function () {
    msecs++;
+   if (msecs < 10){
+       msecs = '0' + msecs;
+       };
    if (msecs === 100) {
        secs++;
+       if (secs < 10){
+       secs = '0' + secs;
+       };
        msecs = '00';
        };
    if (secs === 60) {
        minutes++;
+       if (minutes < 10){
+       minutes = '0' + minutes;
+       };
        secs = '00';
        };
        document.getElementById('timer').innerHTML = minutes + ':' + secs + ':' + msecs;
