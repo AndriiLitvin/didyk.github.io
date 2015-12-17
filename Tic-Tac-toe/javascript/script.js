@@ -7,7 +7,7 @@ var obj = {
 
 
 
-square0.addEventListener('click', startSquare(1));
+square0.addEventListener('click', startSquare(0));
 square1.addEventListener('click', startSquare1);
 square2.addEventListener('click', startSquare2);
 
