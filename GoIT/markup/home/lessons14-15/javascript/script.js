@@ -1,4 +1,4 @@
-var date = new Date();
+var date = new Date(0, 0);
 var timer;
 var counter = 0;
 var msecs = 0;
@@ -65,14 +65,16 @@ function startTimer()
 
    timer = setInterval(
    function () {
-   msecs += 5;
+    date.setMilliseconds( date.getMilliseconds() + 4);
+    var msecs = date.getMilliseconds();
+    // msecs += 5;
    // if (msecs < 10){
    //     msecs = 0 + msecs;
    //     };
    // if (msecs < 100){
    //     msecs = msecs;
    //     };
-   if (msecs == 1000) {
+   if (msecs == 996) {
        secs++;
        if (secs < 10){
        secs = "0" + secs;
@@ -87,7 +89,7 @@ function startTimer()
        secs = '00';
        };
        document.getElementById('timer').innerHTML = hours + ':' + minutes + ':' + secs + ':' + msecs;
-     }, 5);
+     }, 4);
        document.getElementById('startB').innerHTML = 'Пауза';
      } else {
        window.clearInterval(timer);
